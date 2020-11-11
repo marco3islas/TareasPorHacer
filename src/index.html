@@ -4,6 +4,8 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Template • TodoMVC</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
 	</head>
 	<body>
 		<section class="todoapp">
@@ -38,9 +40,6 @@
 			</section>
 			<!-- This footer should hidden by default and shown when there are todos -->
 			<footer class="footer">
-				<!-- This should be `0 items left` by default -->
-				<span class="todo-count"><strong>0</strong> pendiente(s)</span>
-				<!-- Remove this if you don't implement routing -->
 				<ul class="filters">
 					<li>
 						<a class="selected filtro"  href="#/">Todos</a>
@@ -51,9 +50,10 @@
 					<li>
 						<a class="filtro" href="#/completed">Completados</a>
 					</li>
+
+				<button class="clear-completed">Borrar completados</button>
 				</ul>
 				<!-- Hidden if no completed items are left ↓ -->
-				<button class="clear-completed">Borrar completados</button>
 			</footer>
 		</section>
 		<footer class="info">
