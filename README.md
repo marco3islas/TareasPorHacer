@@ -1,21 +1,6 @@
 
 
-# WebPack Starter
+# Aplicacion de Tareas por hacer. 
 
-Este es el proyecto inicial para crear aplicaciones utilizando webpack
-
-### Notas:
-
-Recuerden reconstruir los modulos de node
-
-```
-
-npm install
-
-```
-Y para construir el build, recureden:
-
-```
-npm run build
-```
-
+Este es el proyecto inicial de una Aplicacion para administrar tareas o
+pendientes y hacer mas facil la propia organizacion.  
